@@ -101,7 +101,6 @@ class Player {
             totalPrecision = parseFloat(totalPrecision) + parseFloat(errorPercentage)
         }
         var average = (totalPrecision / this.errorsPercentage.length) * 100
-        console.log(this.errorsPercentage.length)
         return average.toFixed(2)
     }
 
@@ -403,7 +402,6 @@ window.addEventListener("load", function() {
 
             //Precision
             currentPlayer.errorsPercentage.push(0) //Add new error percentage
-            console.log(currentPlayer.errorsPercentage)
         });
 
         socket.on("removePlayer", (playerPeerId) => {
