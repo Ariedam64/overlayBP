@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Ayaya BP Overlay
 // @namespace    http://tampermonkey.net/
-// @version      4
+// @version      5
 // @description  Donnes des stats sur joueur de la partie
 // @author       Ayaya
 // @match        https://jklm.fun/*
@@ -10,7 +10,6 @@
 // @match        https://*.jklm.macadelic.me/games/bombparty/
 // @match        http://jklm.macadelic.me/*
 // @match        http://*.jklm.macadelic.me/games/bombparty/
-// @update       https://github.com/Ariedam64/overlayBP/raw/main/overlayBP.user.js
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=jklm.fun
 // @grant        none
 // ==/UserScript==
