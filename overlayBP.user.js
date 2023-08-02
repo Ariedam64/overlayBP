@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Ayaya BP Overlay
 // @namespace    http://tampermonkey.net/
-// @version      9
+// @version      10
 // @description  Donnes des stats sur joueur de la partie
 // @author       Ayaya
 // @match        https://jklm.fun/*
